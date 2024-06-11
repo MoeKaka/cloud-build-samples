@@ -1,4 +1,5 @@
    steps:
    - name: golang
      script: go run quickstart-automate/main.go
-   
+   options:
+      logging: NONE
